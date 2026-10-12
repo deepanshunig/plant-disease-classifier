@@ -1,0 +1,19 @@
+# First full-data CPU run: all eligible images, short baseline and two-stage fit.
+# Longer experiments can use train.yaml after inspecting validation results.
+seed: 42
+threads: 4
+batch_size: 32
+workers: 0
+device: cpu
+manifest: data/manifests/images.csv
+max_train_per_class: null
+max_validation_per_class: null
+baseline_epochs: 1
+head_epochs: 1
+fine_tune_epochs: 1
+patience: 4
+head_lr: 0.001
+fine_tune_head_lr: 0.0001
+backbone_lr: 0.00001
+weight_decay: 0.0001
+class_weighted_loss: true

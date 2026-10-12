@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-12T08:08:30.164384+00:00",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "dependency_check": "No broken requirements found.",
+  "model_version": "full_data-resnet18-epoch-2",
+  "model_sha256": "4b33fa1778f27d0cf784db51d45bb2e1c468686c0ab0a62430f665db60361e54",
+  "evaluation_checkpoint_sha256_matches_bundle": true,
+  "test_images": 10709,
+  "full_test_predictions_match_manifest": true,
+  "reported_accuracy_matches_predictions": true,
+  "external_photo_evaluation": "not measured",
+  "warm_single_image_median_seconds": 0.045629900007043034,
+  "latency_measurement": "Five runs of shared RGB-image preprocessing and CPU inference; excludes file upload, decoding and initial model loading",
+  "browser_upload_and_classification": "passed; see reports/browser_verification.json"
+}

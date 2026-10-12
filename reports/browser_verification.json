@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-12T08:15:19.896498+00:00",
+  "url": "http://127.0.0.1:8510/",
+  "model_version": "full_data-resnet18-epoch-2",
+  "model_sha256": "4b33fa1778f27d0cf784db51d45bb2e1c468686c0ab0a62430f665db60361e54",
+  "test_image": "data/raw/color/Apple___Apple_scab/0261a6e4-21f8-481a-8827-b674e6955644___FREC_Scab 3055.JPG",
+  "observed_plant": "Apple",
+  "observed_condition": "Apple scab",
+  "observed_top_score_display": "100.0%",
+  "observed_alternatives": [
+    "Apple / Apple scab",
+    "Apple / Cedar apple rust",
+    "Peach / Bacterial spot"
+  ],
+  "flow": "Browser file chooser upload followed by Classify leaf; result and three alternatives observed in the browser",
+  "screenshot": "reports/demo.jpg"
+}

@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "total_files": 54305,
+  "readable_images": 54305,
+  "invalid_images": [],
+  "classes": 38,
+  "crops": 14,
+  "splits": {
+    "train": 36124,
+    "test": 10709,
+    "validation": 6494,
+    "quarantine": 978
+  },
+  "leaf_id_sources": {
+    "metadata": 40490,
+    "filename_fallback": 13815
+  },
+  "duplicate_pixel_images": 42,
+  "conflicting_duplicate_groups": 0,
+  "source_training_images_quarantined_for_test_overlap": 978,
+  "group_overlap": 0,
+  "pixel_duplicate_overlap": 0,
+  "grouping_limit": "Physical-leaf identity is verified where metadata resolves it; filename fallback cannot establish identity of otherwise unlinked photos.",
+  "dataset_revision": "9e97599868962bd0079b8db4b7f1efa9185fa1e7"
+}

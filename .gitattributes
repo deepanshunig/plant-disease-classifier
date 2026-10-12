@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve recorded CSV bytes: the training manifest has a saved SHA-256.
+*.csv -text
+*.pt binary
+*.pth binary
+*.jpg binary
+*.jpeg binary
+*.png binary

@@ -1,0 +1,27 @@
+{
+  "architecture": "resnet18",
+  "training_profile": "pilot",
+  "train_images": 1494,
+  "validation_images": 557,
+  "config": {
+    "seed": 42,
+    "threads": 4,
+    "batch_size": 32,
+    "workers": 0,
+    "device": "auto",
+    "manifest": "data/manifests/images.csv",
+    "max_train_per_class": 40,
+    "max_validation_per_class": 15,
+    "baseline_epochs": 2,
+    "head_epochs": 2,
+    "fine_tune_epochs": 1,
+    "patience": 4,
+    "head_lr": 0.001,
+    "fine_tune_head_lr": 0.0001,
+    "backbone_lr": 1e-05,
+    "weight_decay": 0.0001,
+    "class_weighted_loss": true
+  },
+  "manifest_sha256": "f9ca7455be35afce8ffca3018bc6c6ea5f49cc688d2e0eb6422720c8697d9ef4",
+  "device": "cpu"
+}

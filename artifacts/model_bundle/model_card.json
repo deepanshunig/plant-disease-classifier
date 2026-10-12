@@ -1,0 +1,30 @@
+{
+  "model_version": "full_data-resnet18-epoch-2",
+  "architecture": "resnet18",
+  "training_profile": "full_data",
+  "training_images": 36124,
+  "selected_run": "artifacts/runs/full-cpu-20261012-051407-resnet18",
+  "selection_metric": "validation macro F1",
+  "validation_macro_f1": 0.8844326567929438,
+  "candidate_scores": {
+    "artifacts/runs/full-cpu-20261012-051407-small-cnn": 0.5208483346353807,
+    "artifacts/runs/full-cpu-20261012-051407-resnet18": 0.8844326567929438
+  },
+  "uncertainty_filter": {
+    "status": "validation_estimate",
+    "threshold": 0.13865947723388672,
+    "accepted_images": 6494,
+    "validation_images": 6494,
+    "coverage": 1.0,
+    "accepted_accuracy": 0.9094548814290114,
+    "target_accepted_accuracy": 0.9,
+    "note": "Validation estimate only; not an unknown-image detector or probability calibration."
+  },
+  "external_photo_evaluation": "not measured; provide labeled independent photos to evaluate separately",
+  "scope": "Single-leaf classification among the 38 supported PlantVillage crop-condition labels",
+  "limitations": [
+    "PlantVillage backgrounds differ from field conditions",
+    "Unsupported images can receive high model scores",
+    "Pilot training uses a small sample when training_profile is pilot"
+  ]
+}

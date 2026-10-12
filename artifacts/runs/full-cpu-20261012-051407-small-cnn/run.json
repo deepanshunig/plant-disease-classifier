@@ -1,0 +1,27 @@
+{
+  "architecture": "small_cnn",
+  "training_profile": "full_data",
+  "train_images": 36124,
+  "validation_images": 6494,
+  "config": {
+    "seed": 42,
+    "threads": 4,
+    "batch_size": 32,
+    "workers": 0,
+    "device": "cpu",
+    "manifest": "data/manifests/images.csv",
+    "max_train_per_class": null,
+    "max_validation_per_class": null,
+    "baseline_epochs": 1,
+    "head_epochs": 1,
+    "fine_tune_epochs": 1,
+    "patience": 4,
+    "head_lr": 0.001,
+    "fine_tune_head_lr": 0.0001,
+    "backbone_lr": 1e-05,
+    "weight_decay": 0.0001,
+    "class_weighted_loss": true
+  },
+  "manifest_sha256": "f9ca7455be35afce8ffca3018bc6c6ea5f49cc688d2e0eb6422720c8697d9ef4",
+  "device": "cpu"
+}

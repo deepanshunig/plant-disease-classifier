@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "config": "configs/cpu_full.yaml",
+  "baseline": "artifacts/runs/full-cpu-20261012-051407-small-cnn",
+  "resnet18": "artifacts/runs/full-cpu-20261012-051407-resnet18",
+  "test_evaluation": "reports/full-cpu-20261012-051407-test",
+  "phase": "prediction_reload_check_passed"
+}
